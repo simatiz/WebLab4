@@ -79,7 +79,7 @@ body{
         display: flex;
         flex-direction: column;
         align-content: space-evenly;
-        row-gap: 200px;
+        row-gap: 40px;
     }
 
     .orange_rectangle {
