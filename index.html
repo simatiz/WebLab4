@@ -1,0 +1,82 @@
+<!doctype html>
+
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Lab4</title>
+
+  <link rel="stylesheet" type="text/css" href="main.css">
+
+  <script>
+    function show(state){
+      document.getElementById('window').style.display = state;
+      document.getElementById('wrap').style.display = state;
+    }
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="top_box">
+      <div><img src="Logo.png" alt="Logo" class="logo"></div>
+
+      <div>
+        <div onclick="show('none')" id="wrap"></div>
+
+        <div id="window">
+          <span class="remove" onclick="show('none')" aria-hidden="true"></span>
+        </div>
+
+        <button class="three-lines-button" onclick="show('block')"><img src="three-lines.png" alt="Three lines" class="three-lines"></button>
+      </div>
+    </div>
+
+    <div class="center">
+      <h1 class="top_name">Company services</h1>
+      <p class="top_text">
+        Information about services provided by the company, other valuable information.
+        Information about services provided by the company, other valuable information.
+        Information about services provided by the company, other valuable information.
+      </p>
+
+      <div class="orange_rectangle"></div>
+
+      <div class="objects">
+        <div class="obj">
+          <img src="prototyping_img.png" alt="Prototyping image" class="obj-img">
+
+          <h2 class="obj-name">Prototyping</h2>
+
+          <p class="obj-text">Information about Prototyping, other valuable information.</p>
+
+          <a href="#" class="obj-button">LEARN MORE</a>
+        </div>
+
+        <div class="obj">
+          <img src="development_img.png" alt="Development image" class="obj-img">
+
+          <h2 class="obj-name">Development</h2>
+
+          <p class="obj-text">Information about Development, other valuable information.</p>
+
+          <a href="#" class="obj-button">LEARN MORE</a>
+        </div>
+
+        <div class="obj">
+          <img src="innovations_img.png" alt="Innovations image" class="obj-img">
+
+          <h2 class="obj-name">Innovations</h2>
+
+          <p class="obj-text">Information about Innovations, other valuable information.</p>
+
+          <a href="#" class="obj-button">LEARN MORE</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom_box"><p>Some information about company: number, e-mail address, contacts, some other information.</p></div>
+  </div>
+</body>
+
+</html>
